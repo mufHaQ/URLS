@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+label {
+  font-size: 60px;
+  text-align: center;
+}
+
+#url {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+button {
+  font-size: 30px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    margin: 50px auto;
+    width: 300px;
+  }
+
+  #url {
+    width: 100%;
+  }
+}
